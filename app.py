@@ -9,7 +9,6 @@ import models
 import socket_utils
 from socket_utils import SOCKET 
 import requests
-import json
 from datetime import datetime
 
 dotenv_path = join(dirname(__file__), 'sql.env')

@@ -19,7 +19,7 @@ function handleSubmit(response) {
 export function GoogleButton() {
   return <GoogleLogin
     className="gbutton"
-    clientId="791154624378-g41rhk0tetto6ueot7mcjffts9g294e7.apps.googleusercontent.com"
+    clientId="836600659281-eeutvpmf60kb2f2jfhcju5kfnebbsuu2.apps.googleusercontent.com"
     buttonText="Login"
     onSuccess={handleSubmit}
     onFailure={handleSubmit}

@@ -25,9 +25,12 @@ export function Content_Auth() {
           <h1>Breakout Room Breakdown</h1>
           <p> Welcome {name} </p>
           <form onClick={logout}>
-          <button>Logout</button></form>
+            <button id="logout">Logout</button>
+          </form>
           
-          <MyCalendar />
+          <div>
+            <MyCalendar />
+          </div>
         </div>
     );
 }
